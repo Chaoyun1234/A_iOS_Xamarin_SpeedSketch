@@ -1,0 +1,8 @@
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/bin/Release/SpeedSketch.UITest.dll
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/bin/Release/nunit.framework.dll
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/bin/Release/Xamarin.UITest.dll
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/bin/Release/nunit.framework.xml
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/bin/Release/Xamarin.UITest.xml
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/obj/Release/SpeedSketch.UITest.csprojResolveAssemblyReference.cache
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/obj/Release/SpeedSketch.UITest.csproj.CoreCompileInputs.cache
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch.UITest/obj/Release/SpeedSketch.UITest.dll
