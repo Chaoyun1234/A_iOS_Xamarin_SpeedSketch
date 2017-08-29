@@ -2079,7 +2079,7 @@ bl _p_37
 adrp x16, mono_aot_Microsoft_Azure_Mobile_Crashes_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_Crashes_got@PAGEOFF
 ldr x15, [x16, #608]
-.word 0x928006f0
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -4751,7 +4751,7 @@ bl _p_72
 adrp x16, mono_aot_Microsoft_Azure_Mobile_Crashes_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_Crashes_got@PAGEOFF
 ldr x15, [x16, #896]
-.word 0x92800ef0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -4786,7 +4786,7 @@ ldr x15, [x16, #896]
 adrp x16, mono_aot_Microsoft_Azure_Mobile_Crashes_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_Crashes_got@PAGEOFF
 ldr x15, [x16, #904]
-.word 0x928006f0
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -14281,7 +14281,7 @@ bl _p_119
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x92800ef0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -17072,7 +17072,7 @@ _mono_aot_file_info:
 	.long 320,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 238,41,34,195,204,226,170,131,161,112,202,243,3,164,170,222
+	.byte 76,0,62,25,237,188,109,46,51,217,51,90,35,200,122,115
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Crashes_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Crashes_info:

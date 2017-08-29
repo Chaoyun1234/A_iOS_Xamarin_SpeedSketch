@@ -1344,7 +1344,7 @@ bl _p_28
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
 ldr x15, [x16, #376]
-.word 0x92800ef0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -1379,7 +1379,7 @@ ldr x15, [x16, #376]
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
 ldr x15, [x16, #384]
-.word 0x928006f0
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -11837,6 +11837,248 @@ bl _p_143
 Lme_8c:
 .text
 	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid:
+.loc 5 737 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #1864]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xb9004bbf
+.word 0x910103a0
+.word 0xf90023bf
+.word 0xf94013b1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd280003e
+.word 0xb9004bbe
+.loc 5 738 0
+.word 0xf94013b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9002fa0
+.word 0xf9400fa0
+.word 0xf90033a0
+bl _p_144
+.word 0xf90037a0
+.word 0xf94013b1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0x910103a3
+.word 0xf90023bf
+.word 0x910103a3
+.word 0x9100e3a3
+.word 0xf94023a3
+.word 0xf9001fa3
+.word 0xd2800003
+.word 0x910123a5
+.word 0x9100e3a3
+.word 0xf9401fa3
+.word 0xd2800004
+bl _p_145
+.word 0xf9002ba0
+.word 0xf94013b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf94013b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_8d:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
+.loc 5 884 0 prologue_end
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xf9001bb9
+.word 0xaa0003f6
+.word 0xaa0103f7
+.word 0xaa0203f8
+.word 0xf9001fa3
+.word 0xaa0403f9
+.word 0xf90027a5
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #1872]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xb90073bf
+.word 0xb9007bbf
+.word 0xd2800015
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xb5000237
+.loc 5 886 0
+.word 0xf9402bb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd283bc20
+.word 0xf2a00020
+.word 0xd283bc20
+.word 0xf2a00020
+bl _p_100
+.word 0xaa0003e1
+.word 0xd2800820
+.word 0xf2a04000
+.word 0xd2800820
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_6
+.loc 5 889 0
+.word 0xf9402bb1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xb5000238
+.loc 5 891 0
+.word 0xf9402bb1
+.word 0xf940ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd283b9a0
+.word 0xf2a00020
+.word 0xd283b9a0
+.word 0xf2a00020
+bl _p_100
+.word 0xaa0003e1
+.word 0xd2800820
+.word 0xf2a04000
+.word 0xd2800820
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_6
+.loc 5 896 0
+.word 0xf9402bb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x9101c3a1
+.word 0x9101e3a2
+.word 0xaa1903e0
+bl _p_146
+.loc 5 901 0
+.word 0xf9402bb1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1703e0
+.word 0xd2800000
+.word 0xb98073a0
+.word 0xf90047a0
+.word 0xb9807ba0
+.word 0xf9004ba0
+.word 0xf94027a0
+.word 0xf9004fa0
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x0, [x16, #1880]
+.word 0xd2800a01
+.word 0xd2800a01
+bl _p_3
+.word 0xf94047a4
+.word 0xf9404ba5
+.word 0xf9404fa6
+.word 0xf90043a0
+.word 0xaa1603e1
+.word 0xaa1703e2
+.word 0xd2800003
+bl _p_147
+.word 0xf9402bb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f5
+.loc 5 909 0
+.word 0xf9402bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1503e0
+.word 0xaa1803e0
+.word 0x9100e3a0
+.word 0x9101a3a0
+.word 0xf9401fa0
+.word 0xf90037a0
+.word 0xaa1903e0
+.word 0xaa1603e0
+.word 0xaa1503e1
+.word 0xaa1803e2
+.word 0x9101a3a3
+.word 0xf94037a3
+.word 0xaa1903e4
+bl _p_148
+.loc 5 911 0
+.word 0xf9402bb1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xf9402bb1
+.word 0xf9423631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xf9401bb9
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+
+Lme_8e:
+.text
+	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
 System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor:
 .loc 5 81 0 prologue_end
@@ -11845,7 +12087,7 @@ System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor:
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1888]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -11864,12 +12106,12 @@ ldr x16, [x16, #1864]
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1872]
+ldr x0, [x16, #1896]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_3
 .word 0xf9001fa0
-bl _p_144
+bl _p_149
 .word 0xf9400bb1
 .word 0xf9407e31
 .word 0xb4000051
@@ -11878,7 +12120,7 @@ bl _p_144
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1880]
+ldr x0, [x16, #1904]
 .word 0xf9000001
 .loc 5 87 0
 .word 0xf9400bb1
@@ -11888,7 +12130,7 @@ ldr x0, [x16, #1880]
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1888]
+ldr x0, [x16, #1912]
 .word 0xf9400000
 .word 0xf9001ba0
 .word 0xeb1f001f
@@ -11897,7 +12139,7 @@ ldr x0, [x16, #1888]
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1896]
+ldr x0, [x16, #1920]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_3
@@ -11919,17 +12161,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1928]
 .word 0xf9001420
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1912]
+ldr x0, [x16, #1936]
 .word 0xf9002020
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1920]
+ldr x0, [x16, #1944]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -11939,7 +12181,7 @@ ldr x0, [x16, #1920]
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1928]
+ldr x0, [x16, #1952]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9417631
@@ -11952,7 +12194,7 @@ ldr x0, [x16, #1928]
 .word 0xaa1103e1
 bl _p_14
 
-Lme_8d:
+Lme_8f:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
@@ -11965,7 +12207,7 @@ System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor:
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11998,7 +12240,7 @@ ldr x16, [x16, #1936]
 .word 0xd2800002
 .word 0xd2800003
 .word 0xd2800004
-bl _p_145
+bl _p_150
 .loc 6 95 0
 .word 0xf9400fb1
 .word 0xf940aa31
@@ -12012,7 +12254,7 @@ bl _p_145
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8e:
+Lme_90:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -12030,7 +12272,7 @@ System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1968]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -12054,7 +12296,7 @@ ldr x16, [x16, #1944]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_146
+bl _p_151
 .loc 6 211 0
 .word 0xf94023b1
 .word 0xf9409a31
@@ -12062,7 +12304,7 @@ bl _p_146
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1803e0
-bl _p_147
+bl _p_152
 .loc 6 213 0
 .word 0xf94023b1
 .word 0xf940b631
@@ -12140,427 +12382,11 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_8f:
+Lme_91:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
-add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1952]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
-add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1616]
-.word 0xb9400000
-.word 0x34000140
-bl _p_111
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_6
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd28011a0
-.word 0xaa1103e1
-bl _p_14
-
-Lme_90:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult:
-.word 0xa9b87bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003fa
-
-adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
-add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1960]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800019
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xf9402bb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
-add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1616]
-.word 0xb9400000
-.word 0x34000140
-bl _p_111
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90037a0
-.word 0xb4000073
-.word 0xf94037a0
-bl _p_6
-.word 0xf94037a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9101a340
-.word 0xf9403740
-.word 0xaa0003f7
-.word 0xaa1703e0
-.word 0xb50003c0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91008340
-.word 0xf9401340
-.word 0xaa0003f5
-.word 0xaa1503e0
-.word 0xb40001a0
-.word 0xaa1503e0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b41
-.word 0xaa1503e0
-.word 0xd63f0020
-.word 0x14000032
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x9100e340
-.word 0xf9401f40
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x91004340
-.word 0xf9400b40
-.word 0xd63f0000
-.word 0x14000028
-.word 0xaa1703e0
-.word 0xb9801ae0
-.word 0xaa0003f8
-.word 0xd2800019
-.word 0xaa1703e0
-.word 0xaa1903e0
-.word 0x93407f20
-.word 0xb9801ae1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000509
-.word 0xd37df000
-.word 0x8b0002e0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0xaa1603e1
-.word 0xaa0103e0
-.word 0xf9003fa1
-.word 0xf9400c30
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf9403fa0
-.word 0xf9003ba1
-.word 0xf9402bb1
-.word 0xf9419231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f4
-.word 0xaa1903e0
-.word 0x11000720
-.word 0xaa0003f9
-.word 0xaa1903e0
-.word 0xaa1803e1
-.word 0x6b18001f
-.word 0x54fffc0b
-.word 0xaa1403e0
-.word 0xaa1403e0
-.word 0xf9402bb1
-.word 0xf941ce31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c87bfd
-.word 0xd65f03c0
-.word 0xd28011a0
-.word 0xaa1103e1
-bl _p_14
-
-Lme_91:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
-add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1968]
-.word 0xf9002bb0
-.word 0xf9400a11
-.word 0xf9002fb1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0xd2800013
-.word 0xf9402bb1
-.word 0xf9405e31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
-add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1616]
-.word 0xb9400000
-.word 0x34000140
-bl _p_111
-.word 0xf90037a0
-.word 0xf94037a1
-.word 0xf94037a0
-.word 0xf9003ba1
-.word 0xb4000060
-.word 0xf9403ba0
-bl _p_6
-.word 0xf9403ba0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101a320
-.word 0xf9403720
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb5000440
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40001e0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b22
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0x14000036
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91004320
-.word 0xf9400b21
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0x1400002a
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000549
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf90047a2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xaa0003e1
-.word 0xf94047a0
-.word 0xf90043a1
-.word 0xf9402bb1
-.word 0xf941ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94043a0
-.word 0xaa0003f3
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffbcb
-.word 0xaa1303e0
-.word 0xaa1303e0
-.word 0xf9402bb1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd28011a0
-.word 0xaa1103e1
-bl _p_14
-
-Lme_92:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -12697,7 +12523,557 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_14
 
+Lme_92:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #1984]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x0, [x16, #1616]
+.word 0xb9400000
+.word 0x34000140
+bl _p_111
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_6
+.word 0xf94037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9101a340
+.word 0xf9403740
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xb50003c0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91008340
+.word 0xf9401340
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xb40001a0
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b41
+.word 0xaa1503e0
+.word 0xd63f0020
+.word 0x14000032
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x9100e340
+.word 0xf9401f40
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x91004340
+.word 0xf9400b40
+.word 0xd63f0000
+.word 0x14000028
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003f8
+.word 0xd2800019
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000509
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xaa1603e1
+.word 0xaa0103e0
+.word 0xf9003fa1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9403fa0
+.word 0xf9003ba1
+.word 0xf9402bb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f4
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0xaa1803e1
+.word 0x6b18001f
+.word 0x54fffc0b
+.word 0xaa1403e0
+.word 0xaa1403e0
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd28011a0
+.word 0xaa1103e1
+bl _p_14
+
 Lme_93:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #1992]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x0, [x16, #1616]
+.word 0xb9400000
+.word 0x34000140
+bl _p_111
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_6
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd28011a0
+.word 0xaa1103e1
+bl _p_14
+
+Lme_94:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #2000]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x0, [x16, #1616]
+.word 0xb9400000
+.word 0x34000140
+bl _p_111
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_6
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd28011a0
+.word 0xaa1103e1
+bl _p_14
+
+Lme_95:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #2008]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x0, [x16, #1616]
+.word 0xb9400000
+.word 0x34000140
+bl _p_111
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_6
+.word 0xf9403ba0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000036
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x1400002a
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000549
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf90047a2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf94047a0
+.word 0xf90043a1
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f3
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffbcb
+.word 0xaa1303e0
+.word 0xaa1303e0
+.word 0xf9402bb1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd28011a0
+.word 0xaa1103e1
+bl _p_14
+
+Lme_96:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Nullable_1_System_Guid_invoke_TResult
@@ -12713,7 +13089,7 @@ wrapper_delegate_invoke_System_Func_1_System_Nullable_1_System_Guid_invoke_TResu
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2016]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -12880,9 +13256,9 @@ bl _p_6
 .word 0xaa1103e1
 bl _p_14
 
-Lme_98:
+Lme_9b:
 .text
-ut_153:
+ut_156:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
 .text
@@ -12898,7 +13274,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__cto
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2024]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12942,9 +13318,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_99:
+Lme_9c:
 .text
-ut_154:
+ut_157:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
 .text
@@ -12959,7 +13335,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_Unsa
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2032]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -12982,7 +13358,7 @@ ldr x16, [x16, #2000]
 .word 0xd2800002
 .word 0xd2800022
 .word 0xd2800003
-bl _p_148
+bl _p_153
 .loc 7 348 0
 .word 0xf94013b1
 .word 0xf9408631
@@ -12996,9 +13372,9 @@ bl _p_148
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9a:
+Lme_9d:
 .text
-ut_155:
+ut_158:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_GetResult
 .text
@@ -13014,7 +13390,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_GetR
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2040]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13032,7 +13408,7 @@ ldr x16, [x16, #2008]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_149
+bl _p_154
 .loc 7 358 0
 .word 0xf94013b1
 .word 0xf9407631
@@ -13044,7 +13420,7 @@ bl _p_149
 .word 0xaa0003e8
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_150
+bl _p_155
 .word 0xf94013b1
 .word 0xf940a231
 .word 0xb4000051
@@ -13067,9 +13443,9 @@ bl _p_150
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_9e:
 .text
-ut_156:
+ut_159:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
 .text
@@ -13085,7 +13461,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_Syst
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2048]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -13113,8 +13489,8 @@ ldr x16, [x16, #2016]
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x15, [x16, #2024]
-bl _p_151
+ldr x15, [x16, #2056]
+bl _p_156
 .word 0x910143a0
 .word 0x910103a0
 .word 0xf9402ba0
@@ -13157,9 +13533,9 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_9c:
+Lme_9f:
 .text
-ut_157:
+ut_160:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter
 .text
@@ -13173,7 +13549,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_Syst
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2064]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -13211,9 +13587,9 @@ ldr x16, [x16, #2032]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9d:
+Lme_a0:
 .text
-ut_158:
+ut_161:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
 .text
@@ -13230,7 +13606,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2072]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -13283,9 +13659,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9e:
+Lme_a1:
 .text
-ut_159:
+ut_162:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
 .text
@@ -13299,7 +13675,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2080]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13335,9 +13711,9 @@ bl _p_125
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9f:
+Lme_a2:
 .text
-ut_160:
+ut_163:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
 .text
@@ -13353,7 +13729,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2088]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13376,7 +13752,7 @@ ldr x16, [x16, #2056]
 .word 0x39402322
 .word 0xd2800003
 .word 0xd2800003
-bl _p_148
+bl _p_153
 .loc 7 526 0
 .word 0xf94013b1
 .word 0xf9408a31
@@ -13391,9 +13767,9 @@ bl _p_148
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a0:
+Lme_a3:
 .text
-ut_161:
+ut_164:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult
 .text
@@ -13409,7 +13785,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2096]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13427,7 +13803,7 @@ ldr x16, [x16, #2064]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400340
-bl _p_149
+bl _p_154
 .loc 7 536 0
 .word 0xf94013b1
 .word 0xf9407631
@@ -13439,7 +13815,7 @@ bl _p_149
 .word 0xaa0003e8
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_150
+bl _p_155
 .word 0xf94013b1
 .word 0xf940a231
 .word 0xb4000051
@@ -13462,7 +13838,414 @@ bl _p_150
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_a1:
+Lme_a4:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_void_T_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_void_T_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #2104]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x0, [x16, #1616]
+.word 0xb9400000
+.word 0x34000140
+bl _p_111
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_6
+.word 0xf94037a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb5000440
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40001e0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000030
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x14000024
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000489
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9003ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffc4b
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd28011a0
+.word 0xaa1103e1
+bl _p_14
+
+Lme_a5:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.14.0.3/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/TaskContinuation.cs"
+.loc 8 131 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xf9000bb4
+.word 0xf9000fb8
+.word 0xaa0003f4
+.word 0xf90013a1
+.word 0xf90017a2
+.word 0xf9001ba3
+.word 0xaa0403f8
+.word 0xf9001fa5
+.word 0xf90023a6
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #2112]
+.word 0xf90027b0
+.word 0xf9400a11
+.word 0xf9002bb1
+.word 0x9101a3a0
+.word 0xf90037bf
+.word 0xf94027b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf94017a0
+.word 0xf9003ba0
+.word 0xf9401ba0
+.word 0xf9003fa0
+.word 0xaa1803e0
+.word 0xaa1803e0
+bl _p_117
+.word 0xf90043a0
+.word 0xf94027b1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba1
+.word 0xf9403fa2
+.word 0xf94043a3
+.word 0x9101a3a0
+.word 0xf90037bf
+.word 0x9101a3a0
+.word 0x910183a0
+.word 0xf94037a0
+.word 0xf90033a0
+.word 0xaa1803e0
+.word 0xb9803ba6
+.word 0xd2800000
+.word 0xaa1403e0
+.word 0x910183a4
+.word 0xf94033a4
+.word 0xaa1803e5
+.word 0xd2800007
+bl _p_121
+.loc 8 135 0
+.word 0xf94027b1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf94013a0
+.word 0xf9002680
+.word 0x91012281
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 8 136 0
+.word 0xf94027b1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf94023a1
+.word 0xaa1403e0
+bl _p_119
+.loc 8 137 0
+.word 0xf94027b1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9417e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb4
+.word 0xf9400fb8
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_a6:
+.text
+	.align 4
+	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid_InnerInvoke
+System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid_InnerInvoke:
+.loc 8 146 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xa9026bb9
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #2120]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xd2800018
+.word 0xd2800017
+.word 0xf9401bb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9402740
+.word 0xaa0003f9
+.loc 8 149 0
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xf900275f
+.loc 8 152 0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0xf940033e
+bl _p_132
+.word 0x53001c00
+.word 0xf9401bb1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 156 0
+.word 0xf9401bb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400b40
+.word 0xf90027a0
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x1, [x16, #2128]
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x2, [x16, #2136]
+bl _p_141
+.word 0xaa0003f8
+.loc 8 157 0
+.word 0xf9401bb1
+.word 0xf9410e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xb4000218
+.loc 8 159 0
+.word 0xf9401bb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0xaa1903e1
+.word 0xf9400f10
+.word 0xd63f0200
+.loc 8 160 0
+.word 0xf9401bb1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400002b
+.loc 8 162 0
+.word 0xf9401bb1
+.word 0xf9416231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400b40
+.word 0xf9002ba0
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x1, [x16, #2144]
+
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x2, [x16, #2152]
+bl _p_141
+.word 0xaa0003f7
+.loc 8 163 0
+.word 0xf9401bb1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xb4000257
+.loc 8 165 0
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xf9400f42
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0xf9400ef0
+.word 0xd63f0200
+.loc 8 166 0
+.word 0xf9401bb1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000005
+.loc 8 169 0
+.word 0xf9401bb1
+.word 0xf941fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9420a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xa9426bb9
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_a7:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__cctor
@@ -13472,7 +14255,7 @@ System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__cctor:
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2160]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -13483,12 +14266,12 @@ ldr x16, [x16, #2072]
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #2080]
+ldr x0, [x16, #2168]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_3
 .word 0xf9001ba0
-bl _p_152
+bl _p_157
 .word 0xf9400bb1
 .word 0xf9405e31
 .word 0xb4000051
@@ -13497,7 +14280,7 @@ bl _p_152
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x0, [x16, #1888]
+ldr x0, [x16, #1912]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf9408231
@@ -13507,7 +14290,7 @@ ldr x0, [x16, #1888]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a2:
+Lme_a8:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
@@ -13518,7 +14301,7 @@ System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor:
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2176]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13539,7 +14322,7 @@ ldr x16, [x16, #2088]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_a3:
+Lme_a9:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -13553,7 +14336,7 @@ System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid___cctorb__64_0_Sy
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2184]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -13572,7 +14355,7 @@ ldr x16, [x16, #2096]
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_153
+bl _p_158
 .word 0xaa0003f9
 .word 0xf94017b1
 .word 0xf9407e31
@@ -13586,7 +14369,7 @@ bl _p_153
 
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x1, [x16, #2104]
+ldr x1, [x16, #2192]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000161
@@ -13604,7 +14387,7 @@ ldr x1, [x16, #2104]
 .word 0xaa1103e1
 bl _p_14
 
-Lme_a4:
+Lme_aa:
 .text
 	.align 3
 jit_code_end:
@@ -13755,11 +14538,14 @@ bl System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_TrySetCanceled_Sy
 bl System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_InnerInvoke
 bl System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_GetAwaiter
 bl System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ConfigureAwait_bool
+bl System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+bl System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 bl System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
 bl System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
 bl System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 bl wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 bl wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 bl wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 bl method_addresses
@@ -13776,6 +14562,9 @@ bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwait
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
 bl System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult
+bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_void_T_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+bl System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+bl System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid_InnerInvoke
 bl System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__cctor
 bl System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
 bl System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
@@ -13786,8 +14575,8 @@ method_addresses_end:
 unbox_trampolines:
 
 	.long 98,99,100,101,102,103,104,105
-	.long 106,107,121,153,154,155,156,157
-	.long 158,159,160,161
+	.long 106,107,121,156,157,158,159,160
+	.long 161,162,163,164
 unbox_trampolines_end:
 
 	.long 0
@@ -13805,15 +14594,15 @@ bl ut_105
 bl ut_106
 bl ut_107
 bl ut_121
-bl ut_153
-bl ut_154
-bl ut_155
 bl ut_156
 bl ut_157
 bl ut_158
 bl ut_159
 bl ut_160
 bl ut_161
+bl ut_162
+bl ut_163
+bl ut_164
 
 	.long 0
 .section __TEXT, __const
@@ -13845,8 +14634,10 @@ unwind_info:
 	.byte 68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154
 	.byte 14,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,18,12,31,0,68,14,112,157,14,158,13,68
 	.byte 13,29,68,152,12,153,11,27,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13
-	.byte 68,154,12,34,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152
-	.byte 25,68,153,24,154,23,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.byte 68,154,12,27,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14,34
+	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
+	.byte 154,23,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,20,12,31,0,68,14,144,1,157,18,158,17,68
+	.byte 13,29,68,148,16,68,152,15,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 
 .text
 	.align 4
@@ -13857,1229 +14648,1269 @@ plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_LogLevel:
 _p_1:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2208]
 br x16
-.word 3203
+.word 3414
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_2:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2216]
 br x16
-.word 3208
+.word 3419
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2224]
 br x16
-.word 3228
+.word 3439
 	.no_dead_strip plt__jit_icall_mono_helper_newobj_mscorlib
 plt__jit_icall_mono_helper_newobj_mscorlib:
 _p_4:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2232]
 br x16
-.word 3236
+.word 3447
 	.no_dead_strip plt_System_ArgumentOutOfRangeException__ctor_string_object_string
 plt_System_ArgumentOutOfRangeException__ctor_string_object_string:
 _p_5:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2240]
 br x16
-.word 3266
+.word 3477
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_6:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2248]
 br x16
-.word 3271
+.word 3482
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetLogLevel_Microsoft_Azure_Mobile_iOS_Bindings_MSLogLevel
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetLogLevel_Microsoft_Azure_Mobile_iOS_Bindings_MSLogLevel:
 _p_7:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2256]
 br x16
-.word 3299
+.word 3510
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetLogUrl_string
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetLogUrl_string:
 _p_8:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2264]
 br x16
-.word 3304
+.word 3515
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_IsConfigured
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_IsConfigured:
 _p_9:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2272]
 br x16
-.word 3309
+.word 3520
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_SetWrapperSdk
 plt_Microsoft_Azure_Mobile_MobileCenter_SetWrapperSdk:
 _p_10:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2280]
 br x16
-.word 3314
+.word 3525
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_ConfigureWithAppSecret_string
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_ConfigureWithAppSecret_string:
 _p_11:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2288]
 br x16
-.word 3316
+.word 3527
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_GetServices_System_Collections_Generic_IEnumerable_1_System_Type
 plt_Microsoft_Azure_Mobile_MobileCenter_GetServices_System_Collections_Generic_IEnumerable_1_System_Type:
 _p_12:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2296]
 br x16
-.word 3321
+.word 3532
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_StartService_ObjCRuntime_Class
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_StartService_ObjCRuntime_Class:
 _p_13:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2304]
 br x16
-.word 3323
+.word 3534
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_14:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2312]
 br x16
-.word 3328
+.word 3539
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_GetSecretForPlatform_string_string
 plt_Microsoft_Azure_Mobile_MobileCenter_GetSecretForPlatform_string_string:
 _p_15:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2320]
 br x16
-.word 3363
+.word 3574
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_get_LogTag
 plt_Microsoft_Azure_Mobile_MobileCenterLog_get_LogTag:
 _p_16:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2328]
 br x16
-.word 3365
+.word 3576
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_Assert_string_string
 plt_Microsoft_Azure_Mobile_MobileCenterLog_Assert_string_string:
 _p_17:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2336]
 br x16
-.word 3367
+.word 3578
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_18:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2344]
 br x16
-.word 3369
+.word 3580
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_Start_string_ObjCRuntime_Class__
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_Start_string_ObjCRuntime_Class__:
 _p_19:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2352]
 br x16
-.word 3408
+.word 3619
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_IsEnabled
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_IsEnabled:
 _p_20:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2360]
 br x16
-.word 3413
+.word 3624
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_bool_bool
 plt_System_Threading_Tasks_Task_FromResult_bool_bool:
 _p_21:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2368]
 br x16
-.word 3418
+.word 3629
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetEnabled_bool
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetEnabled_bool:
 _p_22:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2376]
 br x16
-.word 3430
+.word 3641
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_object_object
 plt_System_Threading_Tasks_Task_FromResult_object_object:
 _p_23:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2384]
 br x16
-.word 3435
+.word 3646
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_InstallId
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_InstallId:
 _p_24:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2392]
 br x16
-.word 3447
+.word 3658
 	.no_dead_strip plt_System_Guid_Parse_string
 plt_System_Guid_Parse_string:
 _p_25:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2400]
 br x16
-.word 3452
+.word 3663
 	.no_dead_strip plt_System_Nullable_1_System_Guid__ctor_System_Guid
 plt_System_Nullable_1_System_Guid__ctor_System_Guid:
 _p_26:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2408]
 br x16
-.word 3457
+.word 3668
 	.no_dead_strip plt_System_Threading_Tasks_Task_FromResult_System_Nullable_1_System_Guid_System_Nullable_1_System_Guid
 plt_System_Threading_Tasks_Task_FromResult_System_Nullable_1_System_Guid_System_Nullable_1_System_Guid:
 _p_27:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2416]
 br x16
-.word 3468
+.word 3679
 	.no_dead_strip plt_System_Collections_Generic_List_1_ObjCRuntime_Class__ctor
 plt_System_Collections_Generic_List_1_ObjCRuntime_Class__ctor:
 _p_28:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2424]
 br x16
-.word 3480
+.word 3691
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_GetBindingType_System_Type
 plt_Microsoft_Azure_Mobile_MobileCenter_GetBindingType_System_Type:
 _p_29:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2432]
 br x16
-.word 3491
+.word 3702
 	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
 plt_System_Type_op_Inequality_System_Type_System_Type:
 _p_30:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2440]
 br x16
-.word 3493
+.word 3704
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_GetClassForType_System_Type
 plt_Microsoft_Azure_Mobile_MobileCenter_GetClassForType_System_Type:
 _p_31:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2448]
 br x16
-.word 3498
+.word 3709
 	.no_dead_strip plt_System_Collections_Generic_List_1_ObjCRuntime_Class_Add_ObjCRuntime_Class
 plt_System_Collections_Generic_List_1_ObjCRuntime_Class_Add_ObjCRuntime_Class:
 _p_32:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2456]
 br x16
-.word 3500
+.word 3711
 	.no_dead_strip plt_System_Collections_Generic_List_1_ObjCRuntime_Class_ToArray
 plt_System_Collections_Generic_List_1_ObjCRuntime_Class_ToArray:
 _p_33:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2464]
 br x16
-.word 3511
+.word 3722
 	.no_dead_strip plt_ObjCRuntime_Class_GetHandle_System_Type
 plt_ObjCRuntime_Class_GetHandle_System_Type:
 _p_34:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2472]
 br x16
-.word 3522
+.word 3733
 	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
 plt_intptr_op_Inequality_intptr_intptr:
 _p_35:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2480]
 br x16
-.word 3527
+.word 3738
 	.no_dead_strip plt_ObjCRuntime_Class__ctor_intptr
 plt_ObjCRuntime_Class__ctor_intptr:
 _p_36:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2488]
 br x16
-.word 3532
+.word 3743
 	.no_dead_strip plt_System_Type_GetProperty_string
 plt_System_Type_GetProperty_string:
 _p_37:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2496]
 br x16
-.word 3537
+.word 3748
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_38:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2504]
 br x16
-.word 3542
+.word 3753
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSWrapperSdk__ctor_string_string_string_string_string_string
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSWrapperSdk__ctor_string_string_string_string_string_string:
 _p_39:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2512]
 br x16
-.word 3574
+.word 3785
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetWrapperSdk_Microsoft_Azure_Mobile_iOS_Bindings_MSWrapperSdk
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetWrapperSdk_Microsoft_Azure_Mobile_iOS_Bindings_MSWrapperSdk:
 _p_40:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2520]
 br x16
-.word 3579
+.word 3790
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_get_IOSCustomProperties
 plt_Microsoft_Azure_Mobile_CustomProperties_get_IOSCustomProperties:
 _p_41:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2528]
 br x16
-.word 3584
+.word 3795
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetCustomProperties_Microsoft_Azure_Mobile_iOS_Bindings_MSCustomProperties
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSMobileCenter_SetCustomProperties_Microsoft_Azure_Mobile_iOS_Bindings_MSCustomProperties:
 _p_42:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2536]
 br x16
-.word 3586
+.word 3797
 	.no_dead_strip plt_string_IsNullOrEmpty_string
 plt_string_IsNullOrEmpty_string:
 _p_43:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2544]
 br x16
-.word 3591
+.word 3802
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterException__ctor_string
 plt_Microsoft_Azure_Mobile_MobileCenterException__ctor_string:
 _p_44:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2552]
 br x16
-.word 3596
+.word 3807
 	.no_dead_strip plt_string_Contains_string
 plt_string_Contains_string:
 _p_45:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2560]
 br x16
-.word 3598
+.word 3809
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_Debug_string_string
 plt_Microsoft_Azure_Mobile_MobileCenterLog_Debug_string_string:
 _p_46:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2568]
 br x16
-.word 3603
+.word 3814
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_47:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2576]
 br x16
-.word 3605
+.word 3816
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_48:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2584]
 br x16
-.word 3610
+.word 3821
 	.no_dead_strip plt_string_IndexOf_string_System_StringComparison
 plt_string_IndexOf_string_System_StringComparison:
 _p_49:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2592]
 br x16
-.word 3615
+.word 3826
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_50:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2600]
 br x16
-.word 3620
+.word 3831
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_51:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2608]
 br x16
-.word 3625
+.word 3836
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_get_PlatformLogLevel
 plt_Microsoft_Azure_Mobile_MobileCenter_get_PlatformLogLevel:
 _p_52:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2616]
 br x16
-.word 3630
+.word 3841
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_set_PlatformLogLevel_Microsoft_Azure_Mobile_LogLevel
 plt_Microsoft_Azure_Mobile_MobileCenter_set_PlatformLogLevel_Microsoft_Azure_Mobile_LogLevel:
 _p_53:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2624]
 br x16
-.word 3632
+.word 3843
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformIsEnabledAsync
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformIsEnabledAsync:
 _p_54:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2632]
 br x16
-.word 3634
+.word 3845
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformSetEnabledAsync_bool
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformSetEnabledAsync_bool:
 _p_55:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2640]
 br x16
-.word 3636
+.word 3847
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformGetInstallIdAsync
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformGetInstallIdAsync:
 _p_56:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2648]
 br x16
-.word 3638
+.word 3849
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformSetLogUrl_string
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformSetLogUrl_string:
 _p_57:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2656]
 br x16
-.word 3640
+.word 3851
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_get_PlatformConfigured
 plt_Microsoft_Azure_Mobile_MobileCenter_get_PlatformConfigured:
 _p_58:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2664]
 br x16
-.word 3642
+.word 3853
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformConfigure_string
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformConfigure_string:
 _p_59:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2672]
 br x16
-.word 3644
+.word 3855
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformStart_System_Type__
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformStart_System_Type__:
 _p_60:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2680]
 br x16
-.word 3646
+.word 3857
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformStart_string_System_Type__
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformStart_string_System_Type__:
 _p_61:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2688]
 br x16
-.word 3648
+.word 3859
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenter_PlatformSetCustomProperties_Microsoft_Azure_Mobile_CustomProperties
 plt_Microsoft_Azure_Mobile_MobileCenter_PlatformSetCustomProperties_Microsoft_Azure_Mobile_CustomProperties:
 _p_62:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2696]
 br x16
-.word 3650
+.word 3861
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_set_LogTag_string
 plt_Microsoft_Azure_Mobile_MobileCenterLog_set_LogTag_string:
 _p_63:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2704]
 br x16
-.word 3652
+.word 3863
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_64:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2712]
 br x16
-.word 3654
+.word 3865
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog__Verbosec__AnonStorey0__ctor
 plt_Microsoft_Azure_Mobile_MobileCenterLog__Verbosec__AnonStorey0__ctor:
 _p_65:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2720]
 br x16
-.word 3680
+.word 3891
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSWrapperLogger_MSWrapperLog_Microsoft_Azure_Mobile_iOS_Bindings_MSLogMessageProvider_string_Microsoft_Azure_Mobile_iOS_Bindings_MSLogLevel
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSWrapperLogger_MSWrapperLog_Microsoft_Azure_Mobile_iOS_Bindings_MSLogMessageProvider_string_Microsoft_Azure_Mobile_iOS_Bindings_MSLogLevel:
 _p_66:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2728]
 br x16
-.word 3682
+.word 3893
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog__Debugc__AnonStorey1__ctor
 plt_Microsoft_Azure_Mobile_MobileCenterLog__Debugc__AnonStorey1__ctor:
 _p_67:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2736]
 br x16
-.word 3687
+.word 3898
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog__Infoc__AnonStorey2__ctor
 plt_Microsoft_Azure_Mobile_MobileCenterLog__Infoc__AnonStorey2__ctor:
 _p_68:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2744]
 br x16
-.word 3689
+.word 3900
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog__Warnc__AnonStorey3__ctor
 plt_Microsoft_Azure_Mobile_MobileCenterLog__Warnc__AnonStorey3__ctor:
 _p_69:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2752]
 br x16
-.word 3691
+.word 3902
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog__Errorc__AnonStorey4__ctor
 plt_Microsoft_Azure_Mobile_MobileCenterLog__Errorc__AnonStorey4__ctor:
 _p_70:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2760]
 br x16
-.word 3693
+.word 3904
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog__Assertc__AnonStorey5__ctor
 plt_Microsoft_Azure_Mobile_MobileCenterLog__Assertc__AnonStorey5__ctor:
 _p_71:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2768]
 br x16
-.word 3695
+.word 3906
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_ConcatMessageException_string_System_Exception
 plt_Microsoft_Azure_Mobile_MobileCenterLog_ConcatMessageException_string_System_Exception:
 _p_72:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2776]
 br x16
-.word 3697
+.word 3908
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_Verbose_string_string
 plt_Microsoft_Azure_Mobile_MobileCenterLog_Verbose_string_string:
 _p_73:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2784]
 br x16
-.word 3699
+.word 3910
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_Info_string_string
 plt_Microsoft_Azure_Mobile_MobileCenterLog_Info_string_string:
 _p_74:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2792]
 br x16
-.word 3701
+.word 3912
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_Warn_string_string
 plt_Microsoft_Azure_Mobile_MobileCenterLog_Warn_string_string:
 _p_75:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2800]
 br x16
-.word 3703
+.word 3914
 	.no_dead_strip plt_Microsoft_Azure_Mobile_MobileCenterLog_Error_string_string
 plt_Microsoft_Azure_Mobile_MobileCenterLog_Error_string_string:
 _p_76:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2808]
 br x16
-.word 3705
+.word 3916
 	.no_dead_strip plt_string_Concat_object_object_object
 plt_string_Concat_object_object_object:
 _p_77:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2816]
 br x16
-.word 3707
+.word 3918
 	.no_dead_strip plt_Microsoft_Azure_Mobile_iOS_Bindings_MSCustomProperties__ctor
 plt_Microsoft_Azure_Mobile_iOS_Bindings_MSCustomProperties__ctor:
 _p_78:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2824]
 br x16
-.word 3712
+.word 3923
 	.no_dead_strip plt_System_DateTime_ToUniversalTime
 plt_System_DateTime_ToUniversalTime:
 _p_79:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2832]
 br x16
-.word 3717
+.word 3928
 	.no_dead_strip plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime
 plt_System_DateTime_op_Subtraction_System_DateTime_System_DateTime:
 _p_80:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2840]
 br x16
-.word 3722
+.word 3933
 	.no_dead_strip plt_System_TimeSpan_get_TotalSeconds
 plt_System_TimeSpan_get_TotalSeconds:
 _p_81:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2848]
 br x16
-.word 3727
+.word 3938
 	.no_dead_strip plt_Foundation_NSDate_FromTimeIntervalSinceReferenceDate_double
 plt_Foundation_NSDate_FromTimeIntervalSinceReferenceDate_double:
 _p_82:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2856]
 br x16
-.word 3732
+.word 3943
 	.no_dead_strip plt_Foundation_NSNumber_op_Implicit_int
 plt_Foundation_NSNumber_op_Implicit_int:
 _p_83:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2864]
 br x16
-.word 3737
+.word 3948
 	.no_dead_strip plt_Foundation_NSNumber_op_Implicit_long
 plt_Foundation_NSNumber_op_Implicit_long:
 _p_84:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2872]
 br x16
-.word 3742
+.word 3953
 	.no_dead_strip plt_Foundation_NSNumber_op_Implicit_single
 plt_Foundation_NSNumber_op_Implicit_single:
 _p_85:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2880]
 br x16
-.word 3747
+.word 3958
 	.no_dead_strip plt_Foundation_NSNumber_op_Implicit_double
 plt_Foundation_NSNumber_op_Implicit_double:
 _p_86:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2888]
 br x16
-.word 3752
+.word 3963
 	.no_dead_strip plt_System_Decimal_op_Explicit_System_Decimal
 plt_System_Decimal_op_Explicit_System_Decimal:
 _p_87:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2896]
 br x16
-.word 3757
+.word 3968
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_string
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_string:
 _p_88:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2904]
 br x16
-.word 3762
+.word 3973
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_System_DateTime
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_System_DateTime:
 _p_89:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2912]
 br x16
-.word 3764
+.word 3975
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_int
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_int:
 _p_90:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2920]
 br x16
-.word 3766
+.word 3977
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_long
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_long:
 _p_91:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2928]
 br x16
-.word 3768
+.word 3979
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_single
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_single:
 _p_92:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2936]
 br x16
-.word 3770
+.word 3981
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_double
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_double:
 _p_93:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2944]
 br x16
-.word 3772
+.word 3983
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_System_Decimal
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_System_Decimal:
 _p_94:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2952]
 br x16
-.word 3774
+.word 3985
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_bool
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformSet_string_bool:
 _p_95:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2960]
 br x16
-.word 3776
+.word 3987
 	.no_dead_strip plt_Microsoft_Azure_Mobile_CustomProperties_PlatformClear_string
 plt_Microsoft_Azure_Mobile_CustomProperties_PlatformClear_string:
 _p_96:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2968]
 br x16
-.word 3778
+.word 3989
 	.no_dead_strip plt_System_DateTime__ctor_int_int_int_int_int_int_System_DateTimeKind
 plt_System_DateTime__ctor_int_int_int_int_int_int_System_DateTimeKind:
 _p_97:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2976]
 br x16
-.word 3780
+.word 3991
 	.no_dead_strip plt_System_Exception__ctor_string
 plt_System_Exception__ctor_string:
 _p_98:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2984]
 br x16
-.word 3785
+.word 3996
 	.no_dead_strip plt_System_Exception__ctor_string_System_Exception
 plt_System_Exception__ctor_string_System_Exception:
 _p_99:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2992]
 br x16
-.word 3790
+.word 4001
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_100:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #3000]
 br x16
-.word 3795
+.word 4006
 	.no_dead_strip plt_System_Nullable_1_System_Guid_Unbox_object
 plt_System_Nullable_1_System_Guid_Unbox_object:
 _p_101:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #3008]
 br x16
-.word 3824
+.word 4035
 	.no_dead_strip plt_System_Nullable_1_System_Guid_Equals_System_Nullable_1_System_Guid
 plt_System_Nullable_1_System_Guid_Equals_System_Nullable_1_System_Guid:
 _p_102:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #3016]
 br x16
-.word 3845
+.word 4056
 	.no_dead_strip plt_System_Guid_Equals_object
 plt_System_Guid_Equals_object:
 _p_103:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #3024]
 br x16
-.word 3866
+.word 4077
 	.no_dead_strip plt_System_Guid_GetHashCode
 plt_System_Guid_GetHashCode:
 _p_104:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #3032]
 br x16
-.word 3871
+.word 4082
 	.no_dead_strip plt_System_Guid_ToString
 plt_System_Guid_ToString:
 _p_105:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #3040]
 br x16
-.word 3876
+.word 4087
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_106:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #3048]
 br x16
-.word 3909
+.word 4120
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_107:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #3056]
 br x16
-.word 3917
+.word 4128
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_108:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #3064]
 br x16
-.word 3936
+.word 4147
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_109:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3072]
 br x16
-.word 3960
+.word 4171
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_110:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3080]
 br x16
-.word 3984
+.word 4195
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_111:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3088]
 br x16
-.word 3989
+.word 4200
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_112:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3096]
 br x16
-.word 4055
+.word 4266
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_113:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3104]
 br x16
-.word 4063
+.word 4274
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Nullable_1_System_Guid
 plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Nullable_1_System_Guid:
 _p_114:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3112]
 br x16
-.word 4086
+.word 4297
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_115:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3120]
 br x16
-.word 4107
+.word 4318
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_116:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3128]
 br x16
-.word 4112
+.word 4323
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_117:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3136]
 br x16
-.word 4117
+.word 4328
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_118:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3144]
 br x16
-.word 4122
+.word 4333
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_119:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3152]
 br x16
-.word 4143
+.word 4354
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Func_1_System_Nullable_1_System_Guid_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Func_1_System_Nullable_1_System_Guid_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_120:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3160]
 br x16
-.word 4148
+.word 4359
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_121:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3168]
 br x16
-.word 4169
+.word 4380
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_122:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3176]
 br x16
-.word 4174
+.word 4385
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Func_1_System_Nullable_1_System_Guid_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__ctor_System_Func_1_System_Nullable_1_System_Guid_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler_System_Threading_StackCrawlMark_:
 _p_123:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3184]
 br x16
-.word 4179
+.word 4390
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_124:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3192]
 br x16
-.word 4200
+.word 4411
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_125:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3200]
 br x16
-.word 4205
+.word 4416
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_126:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3208]
 br x16
-.word 4210
+.word 4421
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_127:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3216]
 br x16
-.word 4215
+.word 4426
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_128:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #3224]
 br x16
-.word 4220
+.word 4431
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_129:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #3232]
 br x16
-.word 4225
+.word 4436
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_GetResultCore_bool:
 _p_130:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3240]
 br x16
-.word 4230
+.word 4441
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_131:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3160]
+ldr x16, [x16, #3248]
 br x16
-.word 4251
+.word 4462
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_132:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3256]
 br x16
-.word 4256
+.word 4467
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_133:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3264]
 br x16
-.word 4261
+.word 4472
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_134:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3272]
 br x16
-.word 4266
+.word 4477
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_135:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3280]
 br x16
-.word 4271
+.word 4482
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_136:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #3288]
 br x16
-.word 4276
+.word 4487
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_137:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3296]
 br x16
-.word 4281
+.word 4492
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_138:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3304]
 br x16
-.word 4286
+.word 4497
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_139:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3312]
 br x16
-.word 4307
+.word 4518
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_140:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3320]
 br x16
-.word 4312
+.word 4523
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_141:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3328]
 br x16
-.word 4317
+.word 4528
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid:
 _p_142:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3248]
+ldr x16, [x16, #3336]
 br x16
-.word 4325
+.word 4536
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool:
 _p_143:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3344]
 br x16
-.word 4346
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
-plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor:
+.word 4557
+	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
+plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_144:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3264]
+ldr x16, [x16, #3352]
 br x16
-.word 4367
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+.word 4578
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_:
 _p_145:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3360]
 br x16
-.word 4388
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
-plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
+.word 4583
+	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
+plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_146:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3368]
 br x16
-.word 4409
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
+.word 4604
+	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_:
 _p_147:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3376]
 br x16
-.word 4414
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
+.word 4609
+	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_148:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3384]
 br x16
-.word 4419
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+.word 4630
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
+plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor:
 _p_149:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3392]
 br x16
-.word 4424
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_get_ResultOnSuccess
-plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_get_ResultOnSuccess:
+.word 4635
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_150:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3400]
 br x16
-.word 4429
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool:
+.word 4656
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_151:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3408]
 br x16
-.word 4450
-	.no_dead_strip plt_System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
-plt_System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor:
+.word 4677
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_152:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3416]
 br x16
-.word 4471
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
+.word 4682
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_153:
 adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3424]
 br x16
-.word 4492
+.word 4687
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+_p_154:
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #3432]
+br x16
+.word 4692
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_get_ResultOnSuccess
+plt_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_get_ResultOnSuccess:
+_p_155:
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #3440]
+br x16
+.word 4697
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool:
+_p_156:
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #3448]
+br x16
+.word 4718
+	.no_dead_strip plt_System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
+plt_System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor:
+_p_157:
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #3456]
+br x16
+.word 4739
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
+_p_158:
+adrp x16, mono_aot_Microsoft_Azure_Mobile_got@PAGE+0
+add x16, x16, mono_aot_Microsoft_Azure_Mobile_got@PAGEOFF
+ldr x16, [x16, #3464]
+br x16
+.word 4760
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Microsoft_Azure_Mobile_got, 3344
+.lcomm mono_aot_Microsoft_Azure_Mobile_got, 3472
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -15187,13 +16018,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 264,3344,154,165,70,391195135,0,21135
-	.long 128,8,8,10,0,25,24584,3440
-	.long 3072,2208,0,2736,3024,2368,0,1664
-	.long 240,0,0,0,0,0,0,0
+	.long 275,3472,159,171,70,391195135,0,22503
+	.long 128,8,8,10,0,25,26080,3568
+	.long 3200,2312,0,2848,3152,2472,0,1720
+	.long 248,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 240,3,237,83,163,207,67,132,136,217,136,230,119,186,177,77
+	.byte 137,15,125,64,71,38,205,23,121,77,159,208,142,65,77,122
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_info:
@@ -24137,31 +24968,73 @@ LDIFF_SYM1171=Lme_8c - System_Threading_Tasks_Task_1_System_Nullable_1_System_Gu
 Lfde139_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_101:
 
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1172=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1172
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1173=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1173
+LTDIE_101_POINTER:
+
+	.byte 13
+LDIFF_SYM1174=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1174
+LTDIE_101_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1175=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM1175
 	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<System.Nullable`1<System.Guid>>:.cctor"
-	.asciz "System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor"
+	.asciz "System.Threading.Tasks.Task`1<System.Nullable`1<System.Guid>>:ContinueWith"
+	.asciz "System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid"
 
-	.byte 4,81
-	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
+	.byte 4,225,5
+	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
 	.quad Lme_8d
 
-	.byte 2,118,16,0
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1176=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1176
+	.byte 2,141,16,3
+	.asciz "continuationAction"
+
+LDIFF_SYM1177=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
+	.byte 2,141,24,11
+	.asciz "stackMark"
+
+LDIFF_SYM1178=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM1178
+	.byte 3,141,200,0,11
+	.asciz "V_1"
+
+LDIFF_SYM1179=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1179
+	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1172=Lfde140_end - Lfde140_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1180=Lfde140_end - Lfde140_start
+	.long LDIFF_SYM1180
 Lfde140_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
+	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
 
-LDIFF_SYM1173=Lme_8d - System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
-	.long LDIFF_SYM1173
+LDIFF_SYM1181=Lme_8d - System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+	.long LDIFF_SYM1181
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
 Lfde140_end:
 
@@ -24172,8 +25045,8 @@ LTDIE_102:
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
 	.byte 4
-LDIFF_SYM1174=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1182=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 9
 	.asciz "None"
 
@@ -24222,149 +25095,116 @@ LDIFF_SYM1174=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,32,0,7
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
-LDIFF_SYM1175=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1183=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1183
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM1176=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1184=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1184
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1177=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1177
-LTDIE_101:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_TaskFactory`1"
-
-	.byte 40,16
-LDIFF_SYM1178=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1178
-	.byte 2,35,0,6
-	.asciz "m_defaultCancellationToken"
-
-LDIFF_SYM1179=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1179
-	.byte 2,35,16,6
-	.asciz "m_defaultScheduler"
-
-LDIFF_SYM1180=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1180
-	.byte 2,35,24,6
-	.asciz "m_defaultCreationOptions"
-
-LDIFF_SYM1181=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1181
-	.byte 2,35,32,6
-	.asciz "m_defaultContinuationOptions"
-
-LDIFF_SYM1182=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1182
-	.byte 2,35,36,0,7
-	.asciz "System_Threading_Tasks_TaskFactory`1"
-
-LDIFF_SYM1183=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1183
-LTDIE_101_POINTER:
-
-	.byte 13
-LDIFF_SYM1184=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM1184
-LTDIE_101_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1185=LTDIE_101 - Ldebug_info_start
+LDIFF_SYM1185=LTDIE_102 - Ldebug_info_start
 	.long LDIFF_SYM1185
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1<System.Nullable`1<System.Guid>>:.ctor"
-	.asciz "System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor"
+	.asciz "System.Threading.Tasks.Task`1<System.Nullable`1<System.Guid>>:ContinueWith"
+	.asciz "System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_"
 
-	.byte 5,93
-	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
+	.byte 4,244,6
+	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 	.quad Lme_8e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1186=LTDIE_101_REFERENCE - Ldebug_info_start
+LDIFF_SYM1186=LTDIE_94_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1186
-	.byte 2,141,16,11
-	.asciz "V_0"
+	.byte 1,102,3
+	.asciz "continuationAction"
 
-LDIFF_SYM1187=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1187=LTDIE_101_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1187
-	.byte 2,141,56,0
+	.byte 1,103,3
+	.asciz "scheduler"
+
+LDIFF_SYM1188=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
+	.byte 1,104,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1189=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1189
+	.byte 2,141,56,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM1190=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1190
+	.byte 1,105,3
+	.asciz "stackMark"
+
+LDIFF_SYM1191=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1191
+	.byte 3,141,200,0,11
+	.asciz "creationOptions"
+
+LDIFF_SYM1192=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1192
+	.byte 3,141,240,0,11
+	.asciz "internalOptions"
+
+LDIFF_SYM1193=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1193
+	.byte 3,141,248,0,11
+	.asciz "continuationTask"
+
+LDIFF_SYM1194=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1194
+	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1188=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1195=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM1195
 Lfde141_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
+	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
 
-LDIFF_SYM1189=Lme_8e - System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
-	.long LDIFF_SYM1189
+LDIFF_SYM1196=Lme_8e - System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM1196
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14
 	.align 3
 Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1<System.Nullable`1<System.Guid>>:.ctor"
-	.asciz "System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
+	.asciz "System.Threading.Tasks.Task`1<System.Nullable`1<System.Guid>>:.cctor"
+	.asciz "System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor"
 
-	.byte 5,208,1
-	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.byte 4,81
+	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
 	.quad Lme_8f
 
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1190=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1190
-	.byte 1,103,3
-	.asciz "cancellationToken"
-
-LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1191
-	.byte 2,141,40,3
-	.asciz "creationOptions"
-
-LDIFF_SYM1192=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM1192
-	.byte 1,104,3
-	.asciz "continuationOptions"
-
-LDIFF_SYM1193=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM1193
-	.byte 1,105,3
-	.asciz "scheduler"
-
-LDIFF_SYM1194=LTDIE_64_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1194
-	.byte 2,141,56,0
+	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1195=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1197=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM1197
 Lfde142_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.quad System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
 
-LDIFF_SYM1196=Lme_8f - System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1196
+LDIFF_SYM1198=Lme_8f - System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid__cctor
+	.long LDIFF_SYM1198
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde142_end:
 
@@ -24372,75 +25212,65 @@ Lfde142_end:
 LTDIE_103:
 
 	.byte 5
-	.asciz "System_Func`2"
+	.asciz "System_Threading_Tasks_TaskFactory`1"
 
-	.byte 112,16
-LDIFF_SYM1197=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM1197
-	.byte 2,35,0,0,7
-	.asciz "System_Func`2"
+	.byte 40,16
+LDIFF_SYM1199=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1199
+	.byte 2,35,0,6
+	.asciz "m_defaultCancellationToken"
 
-LDIFF_SYM1198=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1200
+	.byte 2,35,16,6
+	.asciz "m_defaultScheduler"
+
+LDIFF_SYM1201=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1201
+	.byte 2,35,24,6
+	.asciz "m_defaultCreationOptions"
+
+LDIFF_SYM1202=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1202
+	.byte 2,35,32,6
+	.asciz "m_defaultContinuationOptions"
+
+LDIFF_SYM1203=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1203
+	.byte 2,35,36,0,7
+	.asciz "System_Threading_Tasks_TaskFactory`1"
+
+LDIFF_SYM1204=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1204
 LTDIE_103_POINTER:
 
 	.byte 13
-LDIFF_SYM1199=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1205=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1205
 LTDIE_103_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1200=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1206=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM1206
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Nullable`1<System.Guid>>:.ctor"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor"
 
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.byte 5,93
+	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
 	.quad Lme_90
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1201=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1202=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1202
-	.byte 1,106,11
+LDIFF_SYM1207=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1207
+	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1203
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM1204=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1204
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM1205=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1205
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM1206=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1206
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM1207=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1207
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM1208=LTDIE_63_REFERENCE - Ldebug_info_start
+LDIFF_SYM1208=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1208
-	.byte 1,99,0
+	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -24450,217 +25280,155 @@ Lfde143_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
 
-LDIFF_SYM1210=Lme_90 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+LDIFF_SYM1210=Lme_90 - System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor
 	.long LDIFF_SYM1210
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_104:
 
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 112,16
-LDIFF_SYM1211=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM1211
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM1212=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1212
-LTDIE_104_POINTER:
-
-	.byte 13
-LDIFF_SYM1213=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1213
-LTDIE_104_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1214=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM1214
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
-	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
+	.asciz "System.Threading.Tasks.TaskFactory`1<System.Nullable`1<System.Guid>>:.ctor"
+	.asciz "System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.byte 5,208,1
+	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 	.quad Lme_91
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1215=LTDIE_104_REFERENCE - Ldebug_info_start
+LDIFF_SYM1211=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1211
+	.byte 1,103,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1212=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1212
+	.byte 2,141,40,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1213=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1213
+	.byte 1,104,3
+	.asciz "continuationOptions"
+
+LDIFF_SYM1214=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM1214
+	.byte 1,105,3
+	.asciz "scheduler"
+
+LDIFF_SYM1215=LTDIE_64_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1215
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1216=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1216
-	.byte 1,105,11
-	.asciz "V_1"
-
-LDIFF_SYM1217=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1217
-	.byte 1,104,11
-	.asciz "V_2"
-
-LDIFF_SYM1218=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1218
-	.byte 1,103,11
-	.asciz "V_3"
-
-LDIFF_SYM1219=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1219
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM1220=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1220
-	.byte 1,101,11
-	.asciz "V_5"
-
-LDIFF_SYM1221=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1221
-	.byte 1,100,0
+	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1222=Lfde144_end - Lfde144_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1216=Lfde144_end - Lfde144_start
+	.long LDIFF_SYM1216
 Lfde144_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1223=Lme_91 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
-	.long LDIFF_SYM1223
+LDIFF_SYM1217=Lme_91 - System_Threading_Tasks_TaskFactory_1_System_Nullable_1_System_Guid__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM1217
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8
 	.align 3
 Lfde144_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_105:
+LTDIE_104:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1224=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM1224
+LDIFF_SYM1218=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1225=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1225
-LTDIE_105_POINTER:
+LDIFF_SYM1219=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1219
+LTDIE_104_POINTER:
 
 	.byte 13
-LDIFF_SYM1226=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1226
-LTDIE_105_REFERENCE:
+LDIFF_SYM1220=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1220
+LTDIE_104_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1227=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM1227
-LTDIE_106:
-
-	.byte 5
-	.asciz "System_Threading_Tasks_Task`1"
-
-	.byte 80,16
-LDIFF_SYM1228=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM1228
-	.byte 2,35,0,6
-	.asciz "m_result"
-
-LDIFF_SYM1229=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1229
-	.byte 2,35,72,0,7
-	.asciz "System_Threading_Tasks_Task`1"
-
-LDIFF_SYM1230=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1230
-LTDIE_106_POINTER:
-
-	.byte 13
-LDIFF_SYM1231=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1231
-LTDIE_106_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1232=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1221=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<object,_System.Threading.Tasks.Task>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object"
 
 	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 	.quad Lme_92
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1233=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1222=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1222
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1234=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1223=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1223
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1235=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1224=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1236=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1225=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1237=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1226=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1238=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1238
+LDIFF_SYM1227=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1227
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1239=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1239
+LDIFF_SYM1228=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1228
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1240=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1229=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1241=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1230=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM1230
 Lfde145_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
 
-LDIFF_SYM1242=Lme_92 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1242
+LDIFF_SYM1231=Lme_92 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_TResult_T_object
+	.long LDIFF_SYM1231
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
@@ -24668,96 +25436,390 @@ LDIFF_SYM1242=Lme_92 - wrapper_delegate_invoke_System_Func_2_System_Threading_Ta
 Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_105:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM1232=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1232
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1233=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1233
+LTDIE_105_POINTER:
+
+	.byte 13
+LDIFF_SYM1234=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1234
+LTDIE_105_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1235=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM1235
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.Task>:invoke_TResult"
+	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.quad Lme_93
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1236=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1237=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1237
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM1238=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1238
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1239=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1239
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1240=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1240
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1241=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1241
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM1242=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1243=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM1243
+Lfde146_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+
+LDIFF_SYM1244=Lme_93 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
+	.long LDIFF_SYM1244
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde146_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_106:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1245=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1245
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1246=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1246
+LTDIE_106_POINTER:
+
+	.byte 13
+LDIFF_SYM1247=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1247
+LTDIE_106_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1248=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM1248
 LTDIE_107:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_Task`1"
+
+	.byte 80,16
+LDIFF_SYM1249=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM1249
+	.byte 2,35,0,6
+	.asciz "m_result"
+
+LDIFF_SYM1250=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1250
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_Task`1"
+
+LDIFF_SYM1251=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1251
+LTDIE_107_POINTER:
+
+	.byte 13
+LDIFF_SYM1252=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1252
+LTDIE_107_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1253=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM1253
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad Lme_94
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1254=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1254
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1255=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1255
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1256=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1256
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1257=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1257
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1258=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1258
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1259=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1259
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1260=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1260
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1261=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM1261
+Lfde147_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+
+LDIFF_SYM1262=Lme_94 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1262
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde147_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_108:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM1243=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1263=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1263
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM1244=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1244
-LTDIE_107_POINTER:
+LDIFF_SYM1264=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1264
+LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM1245=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1245
-LTDIE_107_REFERENCE:
+LDIFF_SYM1265=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1265
+LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1246=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1266=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM1266
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.quad Lme_95
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1267=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1267
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1268=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1268
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1269=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1269
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1270=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1270
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1271=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1271
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1272=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1272
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1273=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1273
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1274=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1274
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1275=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM1275
+Lfde148_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+
+LDIFF_SYM1276=Lme_95 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1276
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde148_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_109:
+
+	.byte 5
+	.asciz "System_Func`2"
+
+	.byte 112,16
+LDIFF_SYM1277=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1277
+	.byte 2,35,0,0,7
+	.asciz "System_Func`2"
+
+LDIFF_SYM1278=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1278
+LTDIE_109_POINTER:
+
+	.byte 13
+LDIFF_SYM1279=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1279
+LTDIE_109_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1280=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM1280
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>,_System.Threading.Tasks.Task`1<System.Nullable`1<System.Guid>>>:invoke_TResult_T"
 	.asciz "wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_93
+	.quad Lme_96
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1247=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1281=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1248=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1282=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1282
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1249=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1249
+LDIFF_SYM1283=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1283
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1250=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1250
+LDIFF_SYM1284=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1284
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1251=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1251
+LDIFF_SYM1285=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1285
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1252=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1286=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1286
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1253=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1253
+LDIFF_SYM1287=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1287
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1254=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1254
+LDIFF_SYM1288=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1255=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM1255
-Lfde146_start:
+LDIFF_SYM1289=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM1289
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1256=Lme_93 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1256
+LDIFF_SYM1290=Lme_96 - wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_TResult_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1290
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde146_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24767,189 +25829,189 @@ Lfde146_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Nullable_1_System_Guid_invoke_TResult
-	.quad Lme_98
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1257=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1291=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1291
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1292=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1292
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1259=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1293
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1260=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1294=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1261=LTDIE_29_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1295=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1295
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1262=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1296=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1296
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1263=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1297=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1297
 	.byte 3,141,208,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1264=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM1264
-Lfde147_start:
+LDIFF_SYM1298=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM1298
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Nullable_1_System_Guid_invoke_TResult
 
-LDIFF_SYM1265=Lme_98 - wrapper_delegate_invoke_System_Func_1_System_Nullable_1_System_Guid_invoke_TResult
-	.long LDIFF_SYM1265
+LDIFF_SYM1299=Lme_9b - wrapper_delegate_invoke_System_Func_1_System_Nullable_1_System_Guid_invoke_TResult
+	.long LDIFF_SYM1299
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
 	.byte 154,23
 	.align 3
-Lfde147_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_108:
+LTDIE_110:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM1266=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1300=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1300
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM1267=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1301=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM1268=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1268
-LTDIE_108_POINTER:
+LDIFF_SYM1302=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1302
+LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM1269=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1269
-LTDIE_108_REFERENCE:
+LDIFF_SYM1303=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1303
+LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1270=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1304=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Nullable`1<System.Guid>>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid"
 
 	.byte 6,189,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
-	.quad Lme_99
+	.quad Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1271=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1305=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1305
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM1272=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1306=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1306
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1273=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM1273
-Lfde148_start:
+LDIFF_SYM1307=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM1307
+Lfde151_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
 
-LDIFF_SYM1274=Lme_99 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
-	.long LDIFF_SYM1274
+LDIFF_SYM1308=Lme_9c - System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+	.long LDIFF_SYM1308
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde148_end:
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_109:
+LTDIE_111:
 
 	.byte 5
 	.asciz "System_Action"
 
 	.byte 112,16
-LDIFF_SYM1275=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM1275
+LDIFF_SYM1309=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 2,35,0,0,7
 	.asciz "System_Action"
 
-LDIFF_SYM1276=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1276
-LTDIE_109_POINTER:
+LDIFF_SYM1310=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1310
+LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM1277=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1277
-LTDIE_109_REFERENCE:
+LDIFF_SYM1311=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1311
+LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1278=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM1278
+LDIFF_SYM1312=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM1312
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Nullable`1<System.Guid>>:UnsafeOnCompleted"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action"
 
 	.byte 6,219,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
-	.quad Lme_9a
+	.quad Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1279=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1313=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 2,141,16,3
 	.asciz "continuation"
 
-LDIFF_SYM1280=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1314=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1281=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM1281
-Lfde149_start:
+LDIFF_SYM1315=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM1315
+Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM1282=Lme_9a - System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM1282
+LDIFF_SYM1316=Lme_9d - System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM1316
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde149_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -24959,295 +26021,7 @@ Lfde149_end:
 
 	.byte 6,229,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_GetResult
-	.quad Lme_9b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1283=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1283
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1284=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM1284
-Lfde150_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_GetResult
-
-LDIFF_SYM1285=Lme_9b - System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_GetResult
-	.long LDIFF_SYM1285
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
-	.align 3
-Lfde150_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_110:
-
-	.byte 5
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
-
-	.byte 32,16
-LDIFF_SYM1286=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1286
-	.byte 2,35,0,6
-	.asciz "m_configuredTaskAwaiter"
-
-LDIFF_SYM1287=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1287
-	.byte 2,35,16,0,7
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
-
-LDIFF_SYM1288=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1288
-LTDIE_110_POINTER:
-
-	.byte 13
-LDIFF_SYM1289=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1289
-LTDIE_110_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1290=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM1290
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Nullable`1<System.Guid>>:.ctor"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool"
-
-	.byte 6,210,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
-	.quad Lme_9c
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1291=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1291
-	.byte 2,141,16,3
-	.asciz "task"
-
-LDIFF_SYM1292=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1292
-	.byte 2,141,24,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM1293=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1293
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1294=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM1294
-Lfde151_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
-
-LDIFF_SYM1295=Lme_9c - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
-	.long LDIFF_SYM1295
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
-	.align 3
-Lfde151_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Nullable`1<System.Guid>>:GetAwaiter"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter"
-
-	.byte 6,217,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter
-	.quad Lme_9d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1296=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1296
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1297=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM1297
-Lfde152_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter
-
-LDIFF_SYM1298=Lme_9d - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter
-	.long LDIFF_SYM1298
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
-	.align 3
-Lfde152_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_111:
-
-	.byte 5
-	.asciz "_ConfiguredTaskAwaiter"
-
-	.byte 32,16
-LDIFF_SYM1299=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1299
-	.byte 2,35,0,6
-	.asciz "m_task"
-
-LDIFF_SYM1300=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1300
-	.byte 2,35,16,6
-	.asciz "m_continueOnCapturedContext"
-
-LDIFF_SYM1301=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1301
-	.byte 2,35,24,0,7
-	.asciz "_ConfiguredTaskAwaiter"
-
-LDIFF_SYM1302=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1302
-LTDIE_111_POINTER:
-
-	.byte 13
-LDIFF_SYM1303=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1303
-LTDIE_111_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1304=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM1304
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:.ctor"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool"
-
-	.byte 6,238,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
 	.quad Lme_9e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1305=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1305
-	.byte 1,104,3
-	.asciz "task"
-
-LDIFF_SYM1306=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1306
-	.byte 2,141,24,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM1307=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1307
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1308=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM1308
-Lfde153_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
-
-LDIFF_SYM1309=Lme_9e - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
-	.long LDIFF_SYM1309
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
-	.align 3
-Lfde153_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:get_IsCompleted"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted"
-
-	.byte 6,247,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
-	.quad Lme_9f
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1310=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1310
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1311=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM1311
-Lfde154_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
-
-LDIFF_SYM1312=Lme_9f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
-	.long LDIFF_SYM1312
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde154_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:UnsafeOnCompleted"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action"
-
-	.byte 6,141,4
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
-	.quad Lme_a0
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1313=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1313
-	.byte 1,105,3
-	.asciz "continuation"
-
-LDIFF_SYM1314=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1314
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1315=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM1315
-Lfde155_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
-
-LDIFF_SYM1316=Lme_a0 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM1316
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
-	.align 3
-Lfde155_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:GetResult"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult"
-
-	.byte 6,151,4
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult
-	.quad Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
@@ -25258,20 +26032,540 @@ LDIFF_SYM1317=LDIE_I - Ldebug_info_start
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1318=Lfde156_end - Lfde156_start
+LDIFF_SYM1318=Lfde153_end - Lfde153_start
 	.long LDIFF_SYM1318
+Lfde153_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_GetResult
+
+LDIFF_SYM1319=Lme_9e - System_Runtime_CompilerServices_TaskAwaiter_1_System_Nullable_1_System_Guid_GetResult
+	.long LDIFF_SYM1319
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde153_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_112:
+
+	.byte 5
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
+
+	.byte 32,16
+LDIFF_SYM1320=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1320
+	.byte 2,35,0,6
+	.asciz "m_configuredTaskAwaiter"
+
+LDIFF_SYM1321=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1321
+	.byte 2,35,16,0,7
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
+
+LDIFF_SYM1322=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1322
+LTDIE_112_POINTER:
+
+	.byte 13
+LDIFF_SYM1323=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1323
+LTDIE_112_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1324=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM1324
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Nullable`1<System.Guid>>:.ctor"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool"
+
+	.byte 6,210,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
+	.quad Lme_9f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1325=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1325
+	.byte 2,141,16,3
+	.asciz "task"
+
+LDIFF_SYM1326=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
+	.byte 2,141,24,3
+	.asciz "continueOnCapturedContext"
+
+LDIFF_SYM1327=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1327
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1328=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM1328
+Lfde154_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
+
+LDIFF_SYM1329=Lme_9f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
+	.long LDIFF_SYM1329
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.align 3
+Lfde154_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Nullable`1<System.Guid>>:GetAwaiter"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter"
+
+	.byte 6,217,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter
+	.quad Lme_a0
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1330=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1330
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1331=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM1331
+Lfde155_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter
+
+LDIFF_SYM1332=Lme_a0 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Nullable_1_System_Guid_GetAwaiter
+	.long LDIFF_SYM1332
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde155_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_113:
+
+	.byte 5
+	.asciz "_ConfiguredTaskAwaiter"
+
+	.byte 32,16
+LDIFF_SYM1333=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1333
+	.byte 2,35,0,6
+	.asciz "m_task"
+
+LDIFF_SYM1334=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1334
+	.byte 2,35,16,6
+	.asciz "m_continueOnCapturedContext"
+
+LDIFF_SYM1335=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1335
+	.byte 2,35,24,0,7
+	.asciz "_ConfiguredTaskAwaiter"
+
+LDIFF_SYM1336=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1336
+LTDIE_113_POINTER:
+
+	.byte 13
+LDIFF_SYM1337=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1337
+LTDIE_113_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1338=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM1338
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:.ctor"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool"
+
+	.byte 6,238,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
+	.quad Lme_a1
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1339=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1339
+	.byte 1,104,3
+	.asciz "task"
+
+LDIFF_SYM1340=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1340
+	.byte 2,141,24,3
+	.asciz "continueOnCapturedContext"
+
+LDIFF_SYM1341=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1341
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1342=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM1342
 Lfde156_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
+
+LDIFF_SYM1343=Lme_a1 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_bool
+	.long LDIFF_SYM1343
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
+	.align 3
+Lfde156_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:get_IsCompleted"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted"
+
+	.byte 6,247,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
+	.quad Lme_a2
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1344=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1344
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1345=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM1345
+Lfde157_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
+
+LDIFF_SYM1346=Lme_a2 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_get_IsCompleted
+	.long LDIFF_SYM1346
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde157_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:UnsafeOnCompleted"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action"
+
+	.byte 6,141,4
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
+	.quad Lme_a3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1347=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1347
+	.byte 1,105,3
+	.asciz "continuation"
+
+LDIFF_SYM1348=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1348
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1349=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM1349
+Lfde158_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
+
+LDIFF_SYM1350=Lme_a3 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM1350
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
+	.align 3
+Lfde158_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Nullable`1<System.Guid>>:GetResult"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult"
+
+	.byte 6,151,4
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult
+	.quad Lme_a4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1351=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1351
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1352=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM1352
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult
 
-LDIFF_SYM1319=Lme_a1 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult
-	.long LDIFF_SYM1319
+LDIFF_SYM1353=Lme_a4 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Nullable_1_System_Guid_GetResult
+	.long LDIFF_SYM1353
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde156_end:
+Lfde159_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.Threading.Tasks.Task`1<System.Nullable`1<System.Guid>>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_void_T_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_void_T_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+	.quad Lme_a5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1354=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1354
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1355=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1355
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1356
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1357=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1357
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1358=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1358
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1359=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1359
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1360=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1360
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1361=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM1361
+Lfde160_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_void_T_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+
+LDIFF_SYM1362=Lme_a5 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_invoke_void_T_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid
+	.long LDIFF_SYM1362
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde160_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_114:
+
+	.byte 5
+	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
+
+	.byte 80,16
+LDIFF_SYM1363=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM1363
+	.byte 2,35,0,6
+	.asciz "m_antecedent"
+
+LDIFF_SYM1364=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1364
+	.byte 2,35,72,0,7
+	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
+
+LDIFF_SYM1365=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1365
+LTDIE_114_POINTER:
+
+	.byte 13
+LDIFF_SYM1366=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1366
+LTDIE_114_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1367=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM1367
+	.byte 2
+	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Nullable`1<System.Guid>>:.ctor"
+	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_"
+
+	.byte 7,131,1
+	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+	.quad Lme_a6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1368=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1368
+	.byte 1,100,3
+	.asciz "antecedent"
+
+LDIFF_SYM1369=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1369
+	.byte 2,141,32,3
+	.asciz "action"
+
+LDIFF_SYM1370=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1370
+	.byte 2,141,40,3
+	.asciz "state"
+
+LDIFF_SYM1371=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1371
+	.byte 2,141,48,3
+	.asciz "creationOptions"
+
+LDIFF_SYM1372=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM1372
+	.byte 1,104,3
+	.asciz "internalOptions"
+
+LDIFF_SYM1373=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM1373
+	.byte 2,141,56,3
+	.asciz "stackMark"
+
+LDIFF_SYM1374=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1374
+	.byte 3,141,192,0,11
+	.asciz "V_0"
+
+LDIFF_SYM1375=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1375
+	.byte 3,141,232,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1376=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM1376
+Lfde161_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+
+LDIFF_SYM1377=Lme_a6 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid__ctor_System_Threading_Tasks_Task_1_System_Nullable_1_System_Guid_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_StackCrawlMark_
+	.long LDIFF_SYM1377
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,68,152,15
+	.align 3
+Lfde161_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_115:
+
+	.byte 5
+	.asciz "System_Action`2"
+
+	.byte 112,16
+LDIFF_SYM1378=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM1378
+	.byte 2,35,0,0,7
+	.asciz "System_Action`2"
+
+LDIFF_SYM1379=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1379
+LTDIE_115_POINTER:
+
+	.byte 13
+LDIFF_SYM1380=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1380
+LTDIE_115_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1381=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM1381
+	.byte 2
+	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Nullable`1<System.Guid>>:InnerInvoke"
+	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid_InnerInvoke"
+
+	.byte 7,146,1
+	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid_InnerInvoke
+	.quad Lme_a7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1382=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1382
+	.byte 1,106,11
+	.asciz "antecedent"
+
+LDIFF_SYM1383=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1383
+	.byte 1,105,11
+	.asciz "action"
+
+LDIFF_SYM1384=LTDIE_101_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1384
+	.byte 1,104,11
+	.asciz "actionWithState"
+
+LDIFF_SYM1385=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1385
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1386=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM1386
+Lfde162_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid_InnerInvoke
+
+LDIFF_SYM1387=Lme_a7 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Nullable_1_System_Guid_InnerInvoke
+	.long LDIFF_SYM1387
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
+	.align 3
+Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25281,82 +26575,82 @@ Lfde156_end:
 
 	.byte 0,0
 	.quad System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__cctor
-	.quad Lme_a2
+	.quad Lme_a8
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1320=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM1320
-Lfde157_start:
+LDIFF_SYM1388=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM1388
+Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__cctor
 
-LDIFF_SYM1321=Lme_a2 - System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__cctor
-	.long LDIFF_SYM1321
+LDIFF_SYM1389=Lme_a8 - System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__cctor
+	.long LDIFF_SYM1389
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde157_end:
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_112:
+LTDIE_116:
 
 	.byte 5
 	.asciz "_<>c"
 
 	.byte 16,16
-LDIFF_SYM1322=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1322
+LDIFF_SYM1390=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1390
 	.byte 2,35,0,0,7
 	.asciz "_<>c"
 
-LDIFF_SYM1323=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1323
-LTDIE_112_POINTER:
+LDIFF_SYM1391=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1391
+LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM1324=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1324
-LTDIE_112_REFERENCE:
+LDIFF_SYM1392=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1392
+LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1325=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM1325
+LDIFF_SYM1393=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1/<>c<System.Nullable`1<System.Guid>>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor"
 
 	.byte 0,0
 	.quad System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
-	.quad Lme_a3
+	.quad Lme_a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1326=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1394=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1327=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM1327
-Lfde158_start:
+LDIFF_SYM1395=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM1395
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
 
-LDIFF_SYM1328=Lme_a3 - System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
-	.long LDIFF_SYM1328
+LDIFF_SYM1396=Lme_a9 - System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid__ctor
+	.long LDIFF_SYM1396
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde158_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -25366,36 +26660,36 @@ Lfde158_end:
 
 	.byte 4,87
 	.quad System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.quad Lme_a4
+	.quad Lme_aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1329=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1397=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 2,141,24,3
 	.asciz "completed"
 
-LDIFF_SYM1330=LTDIE_106_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1398=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1398
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1331=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM1331
-Lfde159_start:
+LDIFF_SYM1399=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM1399
+Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
 
-LDIFF_SYM1332=Lme_a4 - System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
-	.long LDIFF_SYM1332
+LDIFF_SYM1400=Lme_aa - System_Threading_Tasks_Task_1__c_System_Nullable_1_System_Guid___cctorb__64_0_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task
+	.long LDIFF_SYM1400
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde159_end:
+Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 

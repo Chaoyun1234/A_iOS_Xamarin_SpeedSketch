@@ -26,11 +26,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		lpfv2NK5gDRdfzYCtCiYha52+JU=
+		PYLlg3uh+Z+NLwbCmuK6IngfF7U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bAnF32NPyzO+FR0vS9+azjnGRRw=
+		TiRCmqned4OT3Tf2p4Zl82tytKA=
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-4AM-jj-fek.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.Analytics.aotdata.arm64</key>
 		<data>
-		eBYZWDl9pzyF0+V9t77BCdV8FR0=
+		ZGJSbMLw4IlB/t7V8YYXJsqhk5E=
 		</data>
 		<key>Microsoft.Azure.Mobile.Analytics.dll</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.Analytics.iOS.Bindings.aotdata.arm64</key>
 		<data>
-		oQlvFaJQdpHiMFg/9q4nIyUUeMw=
+		yuDCBa73wrcp6lUcSV2RxI7ynk8=
 		</data>
 		<key>Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.Crashes.aotdata.arm64</key>
 		<data>
-		/KS32DVtLqf+K54vs6CmAcyvHiI=
+		LTSHC/mSf3XsjjFxVtnxJylxLvo=
 		</data>
 		<key>Microsoft.Azure.Mobile.Crashes.dll</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.Crashes.iOS.Bindings.aotdata.arm64</key>
 		<data>
-		9b9cDaTM/47F+rDVtr9kb2M8wCU=
+		XfoQ7Pjg7+P5DSfuxv6ouQmr/TA=
 		</data>
 		<key>Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.Push.aotdata.arm64</key>
 		<data>
-		wN6xq0w/R0SJBrh0DEtbS89OiAo=
+		9jmZbMmfPRsnxtwBiux7ItUIqhs=
 		</data>
 		<key>Microsoft.Azure.Mobile.Push.dll</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.Push.iOS.Bindings.aotdata.arm64</key>
 		<data>
-		y8MSnoaCQ5ZXzF2KlmqCxxPnTIc=
+		FYJbsTYgkEiq3fF7nFnIC0YRlfg=
 		</data>
 		<key>Microsoft.Azure.Mobile.Push.iOS.Bindings.dll</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.aotdata.arm64</key>
 		<data>
-		3IMdtNAIURrJ+7AEUxth8567uSc=
+		x2BudPZ3vfIR1xfT51w/CIj0+Jo=
 		</data>
 		<key>Microsoft.Azure.Mobile.dll</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Microsoft.Azure.Mobile.iOS.Bindings.aotdata.arm64</key>
 		<data>
-		wQgbE+0hFny+x/eD7Hdu6ArfGP4=
+		+Rw/GvQPgUt5bqMJM/S5KqPqq4s=
 		</data>
 		<key>Microsoft.Azure.Mobile.iOS.Bindings.dll</key>
 		<data>
@@ -126,19 +126,19 @@
 		</data>
 		<key>SpeedSketch.aotdata.arm64</key>
 		<data>
-		5RVVLK+O9KSIPzC26h5hXak5MSs=
+		1shWAUGm583SQAml09JFxDcRDcM=
 		</data>
 		<key>SpeedSketch.exe</key>
 		<data>
-		yOUDVFsb5pW5uaVaVLQkMMY9fBQ=
+		t8GpDSMxz7lMzv7x/N5jDnQ8Bqw=
 		</data>
 		<key>SpeedSketch.pdb</key>
 		<data>
-		lRwrs40ycMwLOoemvrtsJ4EdDaM=
+		Vf8nkNpmO+c1wB0RBUMz6tLyTFE=
 		</data>
 		<key>System.Core.aotdata.arm64</key>
 		<data>
-		VYTqT54y6wqASbXGS+JabeRGDIc=
+		pSYpZF1fjkbZWayDFj42VfOWVjU=
 		</data>
 		<key>System.Core.dll</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>System.aotdata.arm64</key>
 		<data>
-		EzpBjFVLdLYLqNnbQgCDWk363VA=
+		thch+pXj7wZt87kwkISLZ5Trx1o=
 		</data>
 		<key>System.dll</key>
 		<data>
@@ -162,15 +162,15 @@
 		</data>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		njXb6TiI6dbpM9hWEXLrkoz5Ezg=
+		UHbdJHs1IiLYpxZ7H0O1kjfVnWo=
 		</data>
 		<key>Xamarin.iOS.dll</key>
 		<data>
-		ImPXxm2a80+y+AOObFeuagC/qFM=
+		eMGOuHNsunRZac+DWAfa3hJsMY0=
 		</data>
 		<key>Xamarin.iOS.dll.mdb</key>
 		<data>
-		A0+gNkj6spjixSUT1Qk9j0tHPqE=
+		ZfsnmjWIzx1QjGvgn14Atd7hO2Y=
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
@@ -182,15 +182,15 @@
 		</data>
 		<key>mscorlib.aotdata.arm64</key>
 		<data>
-		GlK8+M3OrtJmkUQu0CwaOiOW0YI=
+		EWtUrW2me3JG1oyYl60yWa+Rjj4=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		SI33vxziGPGXCp37jyjjI+ckE2s=
+		aVz92+Qjy7GVHJsCDwUuDRCCYnc=
 		</data>
 		<key>mscorlib.pdb</key>
 		<data>
-		wjtuAvc7U5iV4rr8Jz2/bg++PJs=
+		pdsEpw8qODYLuWAdPTjqAFFgmn8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -254,11 +254,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lpfv2NK5gDRdfzYCtCiYha52+JU=
+			PYLlg3uh+Z+NLwbCmuK6IngfF7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			YZtLAf3ugqY9KVJAsQXWf76DY+/ADC5zL862rVN4MAM=
+			f0GgsW3rRVkyHSjgM8UCwzL0K8SFdU+eZxW7Rb8xnA0=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-4AM-jj-fek.nib</key>
@@ -298,11 +298,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eBYZWDl9pzyF0+V9t77BCdV8FR0=
+			ZGJSbMLw4IlB/t7V8YYXJsqhk5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			taH/T00kOxWxEjeVRBfvBOrUNdBg7o3Pb1Bpue8afg4=
+			mloJxNlxewj0rCZYmZUjrijr31wDTOgp4Tt/kpwkrG8=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.Analytics.dll</key>
@@ -320,11 +320,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oQlvFaJQdpHiMFg/9q4nIyUUeMw=
+			yuDCBa73wrcp6lUcSV2RxI7ynk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			WQtYR/US+J8XjyFee7XIfNwT/ER50FHuoMWxvJCui8E=
+			2ziTL3gDD2jihLn27vmeF/J7QBpHZyiKyB/kUjZZ2hY=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll</key>
@@ -342,11 +342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/KS32DVtLqf+K54vs6CmAcyvHiI=
+			LTSHC/mSf3XsjjFxVtnxJylxLvo=
 			</data>
 			<key>hash2</key>
 			<data>
-			zLVb5mdk9F7oMomX6+5nXL6lsj+Pw9SwJQoBA9Raj+g=
+			RV+EZyf2OPFARFP671VFKT0YgRzVx/a6Ey2YIL1emjw=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.Crashes.dll</key>
@@ -364,11 +364,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9b9cDaTM/47F+rDVtr9kb2M8wCU=
+			XfoQ7Pjg7+P5DSfuxv6ouQmr/TA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qPMg6Y1OSaJA9DWletUTb8rEXG9UkJxzwk+8AmAIXpI=
+			xbDKGMjbPfDES4WG6nFSkwyPxqdrbcRy9vOI3XalpLk=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.Crashes.iOS.Bindings.dll</key>
@@ -386,11 +386,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wN6xq0w/R0SJBrh0DEtbS89OiAo=
+			9jmZbMmfPRsnxtwBiux7ItUIqhs=
 			</data>
 			<key>hash2</key>
 			<data>
-			htKL7eB32DoeG5Mz1J48HvVpWu88q+K6QXOFcRZSPFA=
+			wKxcmORLHNN9IHMzqyvUD1YFln8U3Tvxac31YuUDMxY=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.Push.dll</key>
@@ -408,11 +408,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y8MSnoaCQ5ZXzF2KlmqCxxPnTIc=
+			FYJbsTYgkEiq3fF7nFnIC0YRlfg=
 			</data>
 			<key>hash2</key>
 			<data>
-			q/H3yLHF5SdcWKekDOY+OHRL8hgabvp/HZInyKKSDNU=
+			v6rmxXf42a1OmVzAVz1C8ZPM2wONvdl2ObSA33x3KqU=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.Push.iOS.Bindings.dll</key>
@@ -430,11 +430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3IMdtNAIURrJ+7AEUxth8567uSc=
+			x2BudPZ3vfIR1xfT51w/CIj0+Jo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ra2LCMAUhM2/BcgBMFRNKGLYZaqLJo0v+yTXyBYANfw=
+			MZznx7dYpH+uWsf0ioWp0tpMEItITGLoDzzn/YFUb/A=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.dll</key>
@@ -452,11 +452,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wQgbE+0hFny+x/eD7Hdu6ArfGP4=
+			+Rw/GvQPgUt5bqMJM/S5KqPqq4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			w6pQEzPwmSrU8dBLPEL0/PFHf4VJAp53h72VbsJ1BxE=
+			9d/NO0tCx0GLJNfReFpbH1kPbi25NK8Bq3bwlEEc7Ik=
 			</data>
 		</dict>
 		<key>Microsoft.Azure.Mobile.iOS.Bindings.dll</key>
@@ -507,44 +507,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5RVVLK+O9KSIPzC26h5hXak5MSs=
+			1shWAUGm583SQAml09JFxDcRDcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Cl8iXvX+XAS/FEaDa4eEU3gW8KPldbDc7HBKfZW/AgU=
+			HmXdzE2XBX39ro/3rmCtG36+Qj2G3T99hbGpf5fd+0Y=
 			</data>
 		</dict>
 		<key>SpeedSketch.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yOUDVFsb5pW5uaVaVLQkMMY9fBQ=
+			t8GpDSMxz7lMzv7x/N5jDnQ8Bqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			uZgS1XW36raYLJ9BBhL3L07fYdFv2SQLJwQ2pJ/HaO4=
+			7xGl2aeWxtmCiYNnfBrl5TAlznIap2VZ4yIf0/Z7uMQ=
 			</data>
 		</dict>
 		<key>SpeedSketch.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lRwrs40ycMwLOoemvrtsJ4EdDaM=
+			Vf8nkNpmO+c1wB0RBUMz6tLyTFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			9DKvFwnx5KoCbyXoEgxgivCxnAyKLrtJSvrKcp/d7mg=
+			5Tl5aTO1AoQ4+coYRlWmY/gS+iMXTK46xiANkVAPoqI=
 			</data>
 		</dict>
 		<key>System.Core.aotdata.arm64</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VYTqT54y6wqASbXGS+JabeRGDIc=
+			pSYpZF1fjkbZWayDFj42VfOWVjU=
 			</data>
 			<key>hash2</key>
 			<data>
-			izNCxVjfjsUXoICt9cPumZFQourlCALGsCLgksGfZLg=
+			NwjcY+xDsudsqtPDVjL8OSo1Nghca43JhDNQsWaE8cI=
 			</data>
 		</dict>
 		<key>System.Core.dll</key>
@@ -573,11 +573,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EzpBjFVLdLYLqNnbQgCDWk363VA=
+			thch+pXj7wZt87kwkISLZ5Trx1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			c6iPPOHl+HsAv7yTQKZM/pBxqB9vTWhcUU9YABEALFA=
+			hndKtzzGJcP31jzfu1vkFKuZAXj7uGlU/B2e+Ej2P9k=
 			</data>
 		</dict>
 		<key>System.dll</key>
@@ -606,33 +606,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			njXb6TiI6dbpM9hWEXLrkoz5Ezg=
+			UHbdJHs1IiLYpxZ7H0O1kjfVnWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TzEof3sV5nItFh1Yy8bNVGTuQ+P2acDE/K07xILS2dg=
+			o+LNaLxq63mBKe8RPp6T/r6lrxPLtAFdWcPsBm23cvo=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ImPXxm2a80+y+AOObFeuagC/qFM=
+			eMGOuHNsunRZac+DWAfa3hJsMY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nFO/Esz99YvaJ/dPB8xm7xN2JrzV0SylsReAT13x9hc=
+			p4vMp5GFdwrJIDOjQ8r2M71/ciUlY8c/Z8lerJX9ivM=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll.mdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A0+gNkj6spjixSUT1Qk9j0tHPqE=
+			ZfsnmjWIzx1QjGvgn14Atd7hO2Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			MgpPqLU5qsZWbA7Yfp+O7+RvBxfEvBs9hVokbAGrzdw=
+			xgalxgqFYH0M30xQgqynDmPVB67PVWc6lVbz7fptGzM=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -661,33 +661,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GlK8+M3OrtJmkUQu0CwaOiOW0YI=
+			EWtUrW2me3JG1oyYl60yWa+Rjj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			nX2IjFBTKWowStRZsA7tgsLbvDLyidudn/Ztv7kyz28=
+			9VbuYVmfvzx7VKFw4jQIhsFWi94RJX4Kp+Oew4Auty8=
 			</data>
 		</dict>
 		<key>mscorlib.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SI33vxziGPGXCp37jyjjI+ckE2s=
+			aVz92+Qjy7GVHJsCDwUuDRCCYnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			+qHiDGVvuuKbyznIfxwPPjUC5bg+ALLAwVK7SpvwNKk=
+			ie9pNcWunBAjkbAlGtW0CAc/cXTQ44N39inAibIv7cM=
 			</data>
 		</dict>
 		<key>mscorlib.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wjtuAvc7U5iV4rr8Jz2/bg++PJs=
+			pdsEpw8qODYLuWAdPTjqAFFgmn8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ded1OVARM0Nw8MHQ5iKdecy+MtRmW4fm2z8GrsQ6YfY=
+			OFYZWxlQS5OCza8YdOkrZVY/dUGhzOVUVNtKxscVA44=
 			</data>
 		</dict>
 	</dict>

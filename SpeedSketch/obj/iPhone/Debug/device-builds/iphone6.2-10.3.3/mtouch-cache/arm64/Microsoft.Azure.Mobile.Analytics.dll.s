@@ -458,7 +458,7 @@ ldr x16, [x16, #264]
 adrp x16, mono_aot_Microsoft_Azure_Mobile_Analytics_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_Analytics_got@PAGEOFF
 ldr x15, [x16, #272]
-.word 0x92800ef0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -485,7 +485,7 @@ bl _p_9
 adrp x16, mono_aot_Microsoft_Azure_Mobile_Analytics_got@PAGE+0
 add x16, x16, mono_aot_Microsoft_Azure_Mobile_Analytics_got@PAGEOFF
 ldr x15, [x16, #288]
-.word 0x928007f0
+.word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -934,7 +934,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 47,3,19,41,146,194,100,22,85,202,154,216,158,128,111,110
+	.byte 81,34,160,158,192,33,30,14,218,239,190,2,75,52,151,135
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Analytics_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Analytics_info:

@@ -6661,7 +6661,7 @@ _mono_aot_file_info:
 	.long 112,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 180,151,40,230,109,27,207,30,230,56,85,226,42,168,55,189
+	.byte 22,83,136,194,254,48,175,95,16,238,207,143,152,100,187,88
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Analytics_iOS_Bindings_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Analytics_iOS_Bindings_info:

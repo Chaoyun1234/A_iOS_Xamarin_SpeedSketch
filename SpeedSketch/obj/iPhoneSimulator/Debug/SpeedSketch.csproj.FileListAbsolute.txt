@@ -18,14 +18,6 @@
 /Users/bys/Documents/Cloud/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.csproj.CoreCompileInputs.cache
 /Users/bys/Documents/Cloud/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.exe
 /Users/bys/Documents/Cloud/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.pdb
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.csprojResolveAssemblyReference.cache
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.csproj.CoreCompileInputs.cache
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.exe
-/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.pdb
 /Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/bin/iPhoneSimulator/Debug/SpeedSketch.exe
 /Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/bin/iPhoneSimulator/Debug/SpeedSketch.pdb
 /Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Analytics.dll
@@ -38,3 +30,11 @@
 /Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/bin/iPhoneSimulator/Debug/Microsoft.Azure.Mobile.Push.iOS.Bindings.dll
 /Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/bin/iPhoneSimulator/Debug/nunit.framework.dll
 /Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/bin/iPhoneSimulator/Debug/nunit.framework.xml
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.csprojResolveAssemblyReference.cache
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.csproj.CoreCompileInputs.cache
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.exe
+/Users/bys/Documents/Chaoyun/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhoneSimulator/Debug/SpeedSketch.pdb

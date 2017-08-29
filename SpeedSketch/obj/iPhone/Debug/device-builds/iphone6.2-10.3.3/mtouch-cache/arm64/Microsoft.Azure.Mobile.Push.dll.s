@@ -3719,7 +3719,7 @@ _mono_aot_file_info:
 	.long 72,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 186,104,239,148,64,59,25,138,39,239,36,142,251,89,50,3
+	.byte 203,156,206,251,91,12,68,65,54,199,150,26,125,121,222,165
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Push_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Push_info:
